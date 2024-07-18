@@ -31,10 +31,30 @@
 
   .nav-item{
     list-style: none;
+    
+    
   }
+  .nav-links{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 46px;
+    padding: 8px 0;
+  }
+   
   .nav-link{
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    
+   
+  }
+
+  .home-btn{
+    border: 1px solid #E6533C;
+    background-color: #E6533C;
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
   }
 .header-container{
     max-width: 1440px;
@@ -46,4 +66,55 @@
     font-weight: 800;
     text-align: left;
     font-style: italic;
+}
+.header-title{
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: left;
+  color: white;
+  margin-bottom: 10px;
+}
+.shape{
+  font-family: Miama;
+  font-weight: 400;
+  font-size: 4rem;
+  font-style: italic;
+}
+.quotation{
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+}
+.join{
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #E6533C;
+    background-color: #E6533C;
+    color: white;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    margin: 10px;
+}
+.download{
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid rgb(255, 255, 255);
+    background-color:  rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    margin: 10px;
+}
+.header-container-content{
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 190px;
+}
+
+.habit-container{
+  width: 1440px;
+  height: 4650px;
+  background: rgb(0, 0, 0);
+  margin-top: 0;
 }
